@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TopViewControllerSwift_Example' do
+  pod 'TopViewControllerSwift', :path => '../'
+
+  target 'TopViewControllerSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
