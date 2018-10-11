@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TopViewControllerSwift'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TopViewControllerSwift.'
+  s.summary          = 'awsome TopViewControllerSwift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,12 +25,14 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jprothwell@gmail.com' => 'jprothwell@gmail.com' }
-  s.source           = { :git => 'https://github.com/jprothwell@gmail.com/TopViewControllerSwift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jprothwell/TopViewControllerSwift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TopViewControllerSwift/Classes/**/*'
+  
+  s.swift_version = '3.0'
   
   # s.resource_bundles = {
   #   'TopViewControllerSwift' => ['TopViewControllerSwift/Assets/*.png']
