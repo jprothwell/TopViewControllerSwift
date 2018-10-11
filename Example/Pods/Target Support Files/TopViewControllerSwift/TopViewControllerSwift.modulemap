@@ -1,0 +1,6 @@
+framework module TopViewControllerSwift {
+  umbrella header "TopViewControllerSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

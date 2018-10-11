@@ -1,0 +1,16 @@
+PODS:
+  - TopViewControllerSwift (0.1.0)
+
+DEPENDENCIES:
+  - TopViewControllerSwift (from `../`)
+
+EXTERNAL SOURCES:
+  TopViewControllerSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TopViewControllerSwift: ee84b598d82bcc5c1b259d09329ef400c56c5acd
+
+PODFILE CHECKSUM: 7be53b799d6f21729d70edad70c5aca7a10b5fe3
+
+COCOAPODS: 1.5.3
