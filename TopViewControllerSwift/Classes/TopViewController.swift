@@ -14,8 +14,8 @@ func _TopVisibleViewController(vc:UIViewController?) -> UIViewController? {
     else if let pv = vc?.presentedViewController {
         return _TopVisibleViewController(vc: pv)
     }
-    else if vc?.childViewControllers.isEmpty == false {
-        return _TopVisibleViewController(vc: vc?.childViewControllers.last)
+    else if vc?.children.isEmpty == false {
+        return _TopVisibleViewController(vc: vc?.children.last)
     }
     return vc
 }
