@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TopViewControllerSwift'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'awsome TopViewControllerSwift.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TopViewControllerSwift/Classes/**/*'
   
-  s.swift_version = '3.0'
+  s.swift_version = '4.2'
   
   # s.resource_bundles = {
   #   'TopViewControllerSwift' => ['TopViewControllerSwift/Assets/*.png']
